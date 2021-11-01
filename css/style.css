@@ -1,14 +1,61 @@
-.links{
-    background-color: maroon;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    text-decoration: none;
-
+* {
+  margin: 0;
 }
-a:hover{
-    color: white;
-    background-color:blue;
-    
+
+body {
+  background-color: rgb(237, 234, 215);
+  margin: 20px 50px;
+}
+h1,
+h2 {
+  font-family: "Fruktur", cursive;
+  font-family: "Source Code Pro", monospace;
+  margin: 10px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: maroon;
+}
+
+.navbar {
+  background-color: maroon;
+  text-align: center;
+  word-spacing: 150px;
+  letter-spacing: 3px;
+  padding: 5px;
+  margin: 10px 0 10px 0;
+}
+
+.navbar > a {
+  text-transform: uppercase;
+  color: white;
+}
+
+.navbar > a:hover {
+  /* color: white; */
+  background-color: blue;
+}
+
+#about {
+  margin: 10px 10px;
+  padding: 15px 15px;
+}
+
+#about > img {
+  width: 300px;
+}
+
+#products{
+    margin: 15px 15px;
+}
+
+#contact{
+    margin: 10px 10px;
+}
+
+footer{
+    color: red;
+    border-top: 1px solid red;
+    padding: 10px;
 }
