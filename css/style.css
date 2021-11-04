@@ -46,16 +46,26 @@ a {
   width: 300px;
 }
 
-#products{
-    margin: 15px 15px;
+#products {
+  margin: 15px 15px;
 }
 
-#contact{
-    margin: 10px 10px;
+#contact {
+  margin: 10px 10px;
 }
 
-footer{
-    color: red;
-    border-top: 1px solid red;
-    padding: 10px;
+footer {
+  color: red;
+  border-top: 1px solid red;
+  padding: 10px;
+}
+
+.myinput {
+  border-radius: 10px;
+  background-color: red;
+}
+
+.myinput:focus {
+  border-radius: 10px;
+  background-color: blue;
 }
