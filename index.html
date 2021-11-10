@@ -1,90 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homi's Fried Chicken</title>
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fruktur&family=Source+Code+Pro:ital@1&display=swap"
+      rel="stylesheet"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Homi's Fried Chicken</title>
-  <!-- Google Font  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fruktur&family=Source+Code+Pro:ital@1&display=swap"
-    rel="stylesheet">
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
 
-  <!-- Style sheet -->
-  <link rel="stylesheet" href="/css/style.css" />
-</head>
+  <body>
+    <header id="home">
+      <h1 class="header">Homi's Fried Chicken Business</h1>
+      <!-- Nav Section -->
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#product">Product</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-<body>
-  <header id="home">
-    <h1 class="header">Homi's Fried Chicken Business</h1>
-    <!-- Nav Section -->
-    <nav class="navbar">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#product">Product</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <!-- Main section -->
+    <main>
+      <!-- About section -->
+      <section id="about">
+        <img src="/img/20210514_105454.png" alt="" />
+        <p>
+          Here at Homi's Fried Chicken,we search the best fried chicken and
+          deliver at your house.Nobody can beat our prices
+          <a href="#">Sign Up</a> to recive more information
+          <a href="#">about our products.</a>
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+          inventore pariatur magnam neque doloremque quia blanditiis. A commodi
+          itaque vitae saepe ipsa molestias vel mollitia. Maxime, numquam ipsam!
+          Perspiciatis, porro?
+        </p>
+      </section>
+      <!-- End About Section -->
 
-  <!-- Main section -->
-  <main>
-    <!-- About section -->
-    <section id="about">
-      <img src="/img/20210514_105454.png" alt="" />
-      <p>
-        Here at Homi's Fried Chicken,we search the best fried chicken and
-        deliver at your house.Nobody can beat our prices
-        <a href="#">Sign Up</a> to recive more information
-        <a href="#">about our products.</a>
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        inventore pariatur magnam neque doloremque quia blanditiis. A commodi
-        itaque vitae saepe ipsa molestias vel mollitia. Maxime, numquam ipsam!
-        Perspiciatis, porro?
-      </p>
-    </section>
-    <!-- End About Section -->
+      <!-- Products section -->
+      <section id="products">
+        <h2>Our top products</h2>
+        <ol>
+          <li>Bbq</li>
+          <li>Carolina Reaper Sauce</li>
+          <li>Gralic Mayo</li>
+        </ol>
+      </section>
+      <!-- End of products -->
 
-    <!-- Products section -->
-    <section id="products">
-      <h2> Our top products</h2>
-      <ol>
-        <li>Bbq</li>
-        <li>Carolina Reaper Sauce</li>
-        <li>Gralic Mayo</li>
-      </ol>
-    </section>
-    <!-- End of products -->
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class="img"></div>
 
-    <!-- Contact Section -->
-    <section id="contact">
-      <div class="img"></div>
+        <h2>Ways to Order</h2>
+        <ul>
+          <li>Online online via</li>
+          <li>Order online through telephone</li>
+        </ul>
+        <!-- conact us form  -->
+        <form>
+          <input type="text" class="myinput" /><br />
+          <input type="number" class="myinput" name="" id="" /><br />
+          <input type="color" name="" id="" /><br />
+          <input type="date" name="" id="" /><br />
+          <input type="submit" value="Conatc us" />
+          <input type="reset" value="clear" />
+        </form>
+        <h2>Login Form</h2>
+        <form>
+          <div id="email">
+            <label for=""> Enter Your E-Mail </label>
+            <input type="email" name="email" placeholder="Enter your email" />
+          </div>
+          <div id="password">
+            <label for="">Enter Your Password</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter your password"
+            />
+          </div>
+          <input type="submit" />
+        </form>
+        <h2>Sign Up Form</h2>
+        <form action="">
+          <div id="email">
+            <label for=""> Enter Your E-Mail </label>
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+          <div id="password">
+            <label for="">Enter Your Password</label>
+            <input
+              type="password"
+              name="password"
+              placeholder="Enter your password"
+              required
+            />
+          </div>
+          <label for="">Html</label>
+          <input type="checkbox" name="html" />
+          <label for="">Css</label>
+          <input type="checkbox" name="css" />
+          <label for="">Js</label>
+          <input type="checkbox" name="js" />
+          <br />
+          <label for="">Male</label>
+          <input type="radio" value="male" name="gender" id="" />
+          <label for="">Female</label>
+          <input type="radio" value="female" name="gender" id="" />
 
-      <h2>Ways to Order </h2>
-      <ul>
-        <li>Online online via</li>
-        <li>Order online through telephone</li>
-      </ul>
-      <!-- conact us form  -->
-      <form>
-        <input type="text" class="myinput"><br>
-        <input type="number" class="myinput" name="" id=""><br>
-        <input type="color" name="" id=""><br>
-        <input type="date" name="" id=""><br>
-        <input type="submit" value="Conatc us">
-        <input type="reset" value="clear">
-      </form>
-    </section>
-    <!-- End of Contact Section -->
-  </main>
-  <footer>
-    <p>
-      Lets go to <a href="#">Homi's</a> test page
-    </p>
-  </footer>
-</body>
-
+          <input type="submit" />
+        </form>
+      </section>
+      <!-- End of Contact Section -->
+    </main>
+    <h1>Input testing</h1>
+    <form action="">
+      <input type="button" value="My button" /> <br />
+      <input type="checkbox" /><br />
+      <input type="color" /><br />
+      <input type="date" /><br />
+      <input type="datetime-local" /><br />
+      <input type="email" /> <br />
+      <input type="file" /><br />
+      <input type="hidden" /><br />
+      <input type="image" src="img/button.png" height="50" /><br />
+      <input type="month" /><br />
+      <input type="number" min="18" max="30" /><br />
+      <input type="password" /><br />
+      <input type="radio" /><br />
+      <input type="range" /><br />
+      <input type="reset" /><br />
+      <input type="search" /><br />
+      <input type="submit" /><br />
+      <input type="tel" /><br />
+      <input type="text" /><br />
+      <input type="time" /><br />
+      <input type="url" /><br />
+      <input type="week" /><br />
+      <textarea name="" id="" ></textarea>
+    </form>
+    <footer>
+      <p>Lets go to <a href="http://wa.me/+923009832841">Homi's</a> test page</p>
+    </footer>
+  </body>
 </html>
